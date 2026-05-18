@@ -1,12 +1,12 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Paste from "./components/Paste";
 import ViewPaste from './components/ViewPaste'
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     [
         {
             path: "/",
